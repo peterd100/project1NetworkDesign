@@ -5,10 +5,9 @@ Enivronment
 - Latest version
 \
 Instruction:\
-include bmp file in directory 
+include a bmp file in the working directory. 
 g++ -o server udp_server.cpp
-g++ -o client udp_client.cpp
-
+g++ -o client udp_client.cpp\
 ./server(new terminal)\
 ./client(new terminal)\
 Reference:\
