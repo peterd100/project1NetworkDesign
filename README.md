@@ -3,8 +3,7 @@ Author: Peter D\
 Enivronment Info:
 - VM Arch Linux
 - C++
-- Latest version
-\
+- Latest version\
 Instruction:\
 include a bmp file in the working directory.\
 g++ -o server udp_server.cpp
