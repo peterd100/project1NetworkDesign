@@ -1,7 +1,0 @@
-Phase 1:
-
-Implementing a udp-client/server to send a message and receive an echo.
-
-Phase 2:
-
-Transfering a bmp file using rdt1.0 protocol

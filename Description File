@@ -1,0 +1,26 @@
+Phase 1:
+
+Implementing a udp-client/server to send a message and receive an echo.
+
+Phase 2:
+
+Transfering a bmp file using rdt1.0 protocol
+What is RDT 1.0?
+RDT 1.0 is the simplest reliable transport protocol. It assumes:
+No packet loss, corruption, or reordering – All packets are assumed to arrive intact and in order.
+Stop-and-wait mechanism – Each packet is sent individually.
+No acknowledgments (ACKs) – Since we assume a perfect network, there is no need to confirm reception.
+
+How My Implementation Follows RDT 1.0
+Message Sent One Packet at a Time:
+
+The client reads the BMP file in fixed-size chunks (1024B) and sends each chunk one at a time using sendto().
+The server reads each packet in order and writes it to the output file.
+No Acknowledgment Mechanism (Like RDT 2.0 or RDT 3.0):
+
+There are no checksums, no retransmissions, and no ACK/NACKs.
+This follows RDT 1.0 because it assumes a perfect channel with no packet loss or corruption.
+No Sequence Numbers Required:
+
+In RDT 2.0 and RDT 3.0, we would need sequence numbers to handle duplicate or lost packets.
+Since RDT 1.0 assumes a perfect channel, we do not include sequence numbers.
