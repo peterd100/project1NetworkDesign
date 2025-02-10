@@ -23,7 +23,7 @@ void receive_file(int sockfd, struct sockaddr_in &clientAddr, socklen_t &addrLen
     cout << "Receiving file..." << endl;
     while ((recvLen = recvfrom(sockfd, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&clientAddr, &addrLen)) > 0) {
         outFile.write(buffer, recvLen);
-        if (recvLen < BUFFER_SIZE) break; // End of file
+        if (recvLen < BUFFER_SIZE) break;
     }
     outFile.close();
     cout << "File received successfully." << endl;
