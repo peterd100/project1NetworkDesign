@@ -1,6 +1,6 @@
 Project 1(a&b)\
 Author: Peter D\
-Enivronment
+Enivronment Info:
 - VM Arch Linux
 - C++
 - Latest version
