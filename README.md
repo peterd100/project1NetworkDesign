@@ -1,4 +1,5 @@
-
+Project 1(a&b)\
+Author: Peter D\
 Enivronment
 - VM Arch Linux
 - C++
