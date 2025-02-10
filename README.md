@@ -4,8 +4,7 @@ Peter Dingue
 Enivronment
 - VM Arch Linux
 - C++
-- Latest version\
-- 
+- Latest version
 Instruction:\
 include bmp file in directory 
 g++ -o server udp_server.cpp
