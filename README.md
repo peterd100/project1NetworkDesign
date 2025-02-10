@@ -1,7 +1,7 @@
 Title\
 Peter Dingue
 
-Enivronment\
+Enivronment
 - VM Arch Linux
 - C++
 - Latest version
