@@ -12,6 +12,6 @@ g++ -o server udp_server.cpp
 g++ -o client udp_client.cpp
 
 ./server(new terminal)
-./client(new terminal)
-\Referencees:
+./client(new terminal)\
+Reference:
 https://www.linuxhowtos.org/C_C++/socket.htm
