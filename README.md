@@ -1,5 +1,3 @@
-Title\
-Peter Dingue
 
 Enivronment
 - VM Arch Linux
